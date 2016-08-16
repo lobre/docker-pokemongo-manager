@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    build: "."
+    container_name: "pokemongo-manager"
+    volumes:
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
+    environment:
+      - "DISPLAY=$DISPLAY"
