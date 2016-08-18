@@ -2,6 +2,10 @@
 
 https://github.com/Blossomforth/BlossomsPokemonGoManager
 
+To start, first clone the repo and then launch.
+
+    docker-compose up
+
 ## Mount x11 error
 
 You may need to launch the following command to accept external use of display.
